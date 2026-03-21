@@ -408,7 +408,7 @@ img { display: block; max-width: 100%; }
 
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 2fr;
   gap: 80px;
   align-items: start;
 }
@@ -470,8 +470,10 @@ img { display: block; max-width: 100%; }
 
 .biz-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2px;
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 .biz-card {
